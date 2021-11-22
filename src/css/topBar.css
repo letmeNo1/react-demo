@@ -1,0 +1,81 @@
+.top-bar{
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  height: 60px;
+  box-shadow:0 2px 4px #e5e5e5;
+  background: #fff;
+  z-index:999
+}
+
+.top-bar:after {
+  content: "";
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.top-bar div {
+  display: inline-block;
+  text-align: center;
+}
+
+.login {
+  cursor:pointer;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  margin-right: 44px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid\9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.more-icon {
+  width: 24px;
+  height: 24px;
+  cursor:pointer;
+}
+
+
+.login-text {
+  padding-top: 16px;
+  margin-right: 25px;
+  text-align: center;
+
+  /* margin-right: 25px; */
+}
+
+.logged-text {
+  padding-top: 16px;
+  margin-right: 25px;
+  width: 150px;
+  /* margin-right: 25px; */
+}
+
+.logout-text {
+  display: inline-block;
+  font-size: 18px;
+  padding-top: 11px;
+  /* margin-right: 25px; */
+}
+
+.login-more-dropdown {
+  z-index: 261;
+  position: absolute;
+  width: 135px;
+  box-shadow: 0 2px 4px rgb(80 80 80 / 50%);
+  border-radius: 4px;
+  top: 60px;
+  left: -80px;
+  background: #fff;
+  cursor: pointer;
+}

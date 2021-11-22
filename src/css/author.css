@@ -1,0 +1,49 @@
+.author {
+  float: left;
+  width: calc(100% - 5px);
+  padding-left: 26px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  /* padding: "15px 15px 10px */
+}
+
+.author-comment {
+  float: left;
+  width: calc(100% - 5px);
+  padding-left: 26px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  /* padding: "15px 15px 10px */
+}
+
+.avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+};
+
+.author-name {
+  line-height: normal;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline;
+  font-size: 30px;
+}
+
+.author-title {
+  line-height: normal;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #bc894b;
+  font-size: 10px;
+
+}

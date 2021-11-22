@@ -1,0 +1,24 @@
+body {
+  margin: 20px;
+  /* box-sizing: border-box; */
+  background: #f4f4f4;
+  line-height: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.main-content {
+    margin-top: 70px;
+}

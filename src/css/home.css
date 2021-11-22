@@ -1,0 +1,19 @@
+
+
+.mainContent {
+  display:inline;
+  padding-top: 25px;
+
+  height: 100%;
+  width: 100%
+}
+
+.leftContent {
+  margin-top: 100px;
+  float:left;
+}
+
+.rightContent {
+  margin-top: 100px;
+  float:left;
+}
